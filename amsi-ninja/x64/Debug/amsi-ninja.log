@@ -1,0 +1,3 @@
+﻿  amsininja.cpp
+C:\Users\Admin\source\repos\amsi-ninja\amsi-ninja\amsininja.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  amsi-ninja.vcxproj -> C:\Users\Admin\source\repos\amsi-ninja\x64\Debug\amsi-ninja.exe
