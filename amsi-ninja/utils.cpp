@@ -134,6 +134,7 @@ std::wstring ReadFileToWString(const std::wstring& filePath) {
     return wideStr;
 }
 
+// Function to go over all substrings starting from smallest ones and see if they're flagged
 void removeMatchingSubstrings(std::string& s) {
     std::cout << "Finding all Flagged parts :"<< std::endl;
 
