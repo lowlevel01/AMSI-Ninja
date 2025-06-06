@@ -13,7 +13,7 @@ Commands:
 ````
 # Features
   - [x] Scan file's content via AMSI
-  - [x] Find exact parts in your payload that are statically flagged by Defender
+  - [x] Find exact parts in the file that are statically flagged by Defender
 
 # TODO
 - [ ] Optimize search function over all substrings of the payload.
