@@ -7,7 +7,12 @@
 #include <iostream>
 
 int GetWindowsBuild();
-int AmsiFlagged(const std::wstring& paylod);
+int AmsiFlagged(const std::wstring& payload);
+std::string ReadFileToString(const std::wstring& filePath);
+std::wstring ConvertToWideString(const std::string& input);
+void removeMatchingSubstrings(std::string& s);
+void printBanner();
+
 std::wstring ReadFileToWString(const std::wstring& filePath);
 
 
