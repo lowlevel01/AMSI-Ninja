@@ -20,6 +20,7 @@ int main(int argc, char* argv[]) {
     int amsiResult = AmsiFlagged(content);
     if (amsiResult < 0) {
         printf("Error : Make sure Windows Defender is turned on");
+        return -1;
     }
 
     if (amsiResult) {
